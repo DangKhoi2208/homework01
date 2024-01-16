@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    
+    width: 1220px;
+    height: 100px;
+    /* background-color: aqua; */
+}
+.left{
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    /* background-color:yellow; */
+}
+.information{
+    height: 160px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.name{
+    font-size: 25px ;
+    font-weight: bold;
+}
+.userName{
+    font-size: 18px ;
+    margin-top: 2px;
+    /* font-weight: bold; */
+}
+.bio{
+    font-size: 18px ;
+    margin-top: 2px;
+    /* font-weight: bold; */
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+}
+.avatar-user{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+}
+.follower{
+    display: flex;
+    width: 80px;
+    height: 50px;
+}
+.follower-avatar1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.follower-avatar2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 230px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 520px;
+    height: 100px;
+}
+.Numberoffollowers{
+    font-weight: bold;
+}
+.framebtnEditProfile{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 35px;
+    width: 70px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.framebtnEditProfile:hover{
+    background-color: rgb(190, 186, 186);
+}
+
+.allPost{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.post1{
+    width: 390px;
+    height: 490px;
+    margin-top: 60px;
+    border: 1px solid rgb(215, 213, 213);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.picture-post1{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+}
+.picture1{
+    width: 350px;
+    height: 350px;
+}
+.reaction{
+    display: flex;
+    width: 350px;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+.tymAndCmt{
+    display: flex;
+    height: 30px;
+    width: 30%;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+.capPicture{
+    margin-top: 10px;
+}
