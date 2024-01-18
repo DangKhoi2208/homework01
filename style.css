@@ -1,160 +1,245 @@
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 100vw;
-    
+    font-family: "Noto Sans", sans-serif;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
-.navigate{
+
+.person {
+    height: 55px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    padding: 0px 50px;
+}
+
+.navigate {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 450px;
+    width: 38%;
 }
-.profile{
+
+.logo {
+    font-size: 30px;
+}
+
+.material-symbols-outlined {
+    font-size: 30px;
+}
+
+
+.profile {
     display: flex;
     flex-direction: row;
-    
-    width: 1220px;
-    height: 100px;
+
+    width: 100%;
     /* background-color: aqua; */
 }
-.left{
-    width: 700px;
-    height: 100px;
+
+.left {
+    width: 65%;
     display: flex;
-    justify-content: end;
-    /* background-color:yellow; */
+    justify-content: center;
+
 }
-.information{
-    height: 160px;
+
+.information {
+    /* height: 160px; */
     width: 500px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     /* background-color: red; */
 }
-.name{
-    font-size: 25px ;
+
+.name {
+    font-size: 28px;
     font-weight: bold;
 }
-.userName{
-    font-size: 18px ;
+
+.userName {
+    font-size: 19px;
     margin-top: 2px;
     /* font-weight: bold; */
 }
-.bio{
-    font-size: 18px ;
+
+.bio {
+    font-size: 17px;
     margin-top: 2px;
+    max-width: 420px;
+    word-break: break-word;
     /* font-weight: bold; */
 }
-.avatar{
-    width: 100px;
-    height: 100px;
+
+.avatar {
+    width: 150px;
+    height: 150px;
 }
-.avatar-user{
+
+.avatar-user {
     height: 100%;
     width: 100%;
     object-fit: fill;
     border-radius: 50%;
 }
-.follower{
+
+.follower {
     display: flex;
     width: 80px;
     height: 50px;
+    background-color: white;
 }
-.follower-avatar1{
-    height: 50px;
-    width: 50px;
+
+.follower-avatar1 {
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 }
-.follower-avatar2{
-    height: 50px;
-    width: 50px;
+
+.follower-avatar2 {
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
-    position: absolute;
-    left: 230px;
+    border: 1px solid white;
+    position: relative;
+    margin-left: -18px;
 }
-.info{
+
+.info {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 8px;
 }
 
-.right{
+.right {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 520px;
-    height: 100px;
+    width: 30%;
 }
-.Numberoffollowers{
+
+.postShareMention {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.post {
+    border-bottom: 1px solid black;
+    width: 33%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.share {
+    width: 33%;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.mention {
+    width: 33%;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.Numberoffollowers {
     font-weight: bold;
 }
-.framebtnEditProfile{
+
+.framebtnEditProfile {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 35px;
-    width: 70px;
-    border: 1px solid grey;
+    height: 50px;
+    width: 100px;
+    border: 1px solid rgb(209, 207, 207);
     border-radius: 8px;
     cursor: pointer;
     font-size: 15px;
     margin-top: 10px;
+    font-weight: bold;
 }
-.framebtnEditProfile:hover{
+
+.framebtnEditProfile:hover {
     background-color: rgb(190, 186, 186);
 }
 
-.allPost{
+.allPost {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    margin-top: 25px;
 }
-.post1{
-    width: 390px;
-    height: 490px;
-    margin-top: 60px;
-    border: 1px solid rgb(215, 213, 213);
-    border-radius: 8px;
+
+.post1 {
+    width: 350px;
+    margin-top: 5px;
+    border: 1px solid rgb(224, 219, 219);
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: 390px;
+    padding: 20px;
 }
-.picture-post1{
+
+.picture-post1 {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 350px;
-    height: 350px;
 }
-.picture1{
+
+.picture1 {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
     width: 350px;
-    height: 350px;
+    height: 300px;
 }
-.reaction{
+
+.reaction {
     display: flex;
     width: 350px;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-top: 20px;
 }
-.tymAndCmt{
+
+.tymAndCmt {
     display: flex;
     height: 30px;
     width: 30%;
     /* background-color: red; */
     justify-content: space-between;
 }
-.capPicture{
+
+.capPicture {
     margin-top: 10px;
+}
+
+.vegan {
+    color: blue;
 }
